@@ -16,7 +16,7 @@ const Box = ({ header, children }) => {
   return (
     <>
       <h2>{header}</h2>
-      <h3>Counter: {counter}</h3>
+      <h3>Counter44: {counter}</h3>
       <button onClick={() => setCounter(counter + 1)}>Set counter</button>
       <div>{children}</div>
     </>
